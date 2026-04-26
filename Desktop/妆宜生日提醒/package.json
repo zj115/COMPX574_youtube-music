@@ -1,0 +1,14 @@
+{
+  "name": "zhuangyi-birthday",
+  "version": "1.0.0",
+  "private": true,
+  "description": "妆宜生日提醒系统（玉兰店 / 广电路店）",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "import-seed": "cd backend && npm run import-seed",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "start": "cd backend && npm start"
+  }
+}
